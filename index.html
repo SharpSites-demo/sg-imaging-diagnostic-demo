@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SG Imaging Diagnostic Centre — Raj Nagar Extension, Ghaziabad</title>
+<meta name="description" content="SG imaging Diagnostic Centre — a diagnostic imaging centre in Aura Plaza Market, Raj Nagar Extension, Ghaziabad. Radiologist-led diagnostic imaging. Rated 4.6 on Google.">
+<style>
+:root{
+  --ink:#16231f; --paper:#f6f3ec; --card:#ffffff; --accent:#0e6b57; --accent2:#c8a24a;
+  --line:#d8d2c4; --muted:#5a615c; --soft:#e9e4d8; --body:#333c38;
+  --ph:#8a7f6a; --phbg:#f1ece0; --phline:#cfc4a8; --wa:#25D366;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--paper);color:var(--ink);line-height:1.6}
+h1,h2,h3{font-family:Georgia,serif;font-weight:600;line-height:1.12}
+a{color:var(--accent)}
+a:focus-visible,button:focus-visible,.fab:focus-visible,summary:focus-visible{outline:3px solid var(--accent2);outline-offset:2px;border-radius:4px}
+.wrap{max-width:67.5rem;margin:0 auto;padding:0 20px}
+.mono{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.navwrap{position:sticky;top:0;z-index:50;background:rgba(246,243,236,.92);backdrop-filter:blur(6px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 0}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink)}
+.brand b{font-family:Georgia,serif;font-size:19px}
+.brand small{display:block;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+nav.links{display:flex;gap:6px;flex-wrap:wrap}
+nav.links a{text-decoration:none;font-size:14px;font-weight:600;padding:10px 12px;border-radius:6px;color:var(--ink)}
+nav.links a:hover{background:var(--soft)}
+@media(max-width:40rem){nav.links{display:none}}
+.hero{position:relative;padding:64px 0 56px;border-bottom:1px solid var(--line);overflow:hidden}
+.hero .cross{position:absolute;right:-30px;top:30px;width:220px;height:220px;pointer-events:none}
+.hero .cross::before,.hero .cross::after{content:"";position:absolute;background:var(--accent);opacity:.14}
+.hero .cross::before{left:50%;top:0;width:2px;height:100%;transform:translateX(-50%)}
+.hero .cross::after{top:50%;left:0;height:2px;width:100%;transform:translateY(-50%)}
+.kicker{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);background:var(--card);padding:6px 12px;border-radius:999px;margin-bottom:22px}
+.hero h1{font-size:clamp(34px,6vw,58px);max-width:47.5rem;margin-bottom:18px}
+.hero h1 .accent{color:var(--accent);font-style:italic}
+.hero p.lede{font-size:18px;max-width:37.5rem;color:var(--body);margin-bottom:28px}
+.cta-row{display:flex;gap:14px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:48px;padding:12px 22px;border-radius:8px;font-weight:700;font-size:16px;text-decoration:none;border:1px solid transparent;cursor:pointer}
+.btn-primary{background:var(--accent);color:#fff}
+.btn-primary:hover{background:var(--ink)}
+.btn-ghost{border-color:var(--line);color:var(--ink);background:var(--card)}
+.btn-ghost:hover{border-color:var(--accent);color:var(--accent)}
+.meta-strip{display:grid;grid-template-columns:repeat(4,auto);gap:8px 28px;margin-top:40px;padding-top:20px;border-top:1px dashed var(--line);justify-content:start}
+.meta-strip .m b{display:block;font-size:15px;color:var(--ink)}
+@media(max-width:35rem){.meta-strip{grid-template-columns:repeat(2,auto)}}
+section{padding:60px 0;border-bottom:1px solid var(--line)}
+.sec-head{display:flex;align-items:baseline;gap:14px;margin-bottom:30px}
+.sec-head h2{font-size:clamp(26px,4vw,38px)}
+.sec-head .no{color:var(--accent);font-size:14px}
+.studies{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
+.study{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:20px;display:flex;flex-direction:column;gap:12px;min-height:150px}
+.study .ic{width:44px;height:44px;border-radius:8px;background:var(--soft);display:flex;align-items:center;justify-content:center;color:var(--accent)}
+.study h3{font-size:19px}
+.study p{font-size:16px;color:var(--muted)}
+.study .tag{align-self:flex-start;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);border:1px solid var(--accent);border-radius:999px;padding:3px 10px}
+.ph{color:var(--ph);background:var(--phbg);border:1px dashed var(--phline);border-radius:6px;padding:8px 10px;font-size:14px;font-style:italic}
+.readiness{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+.rd{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:20px;display:flex;gap:14px;align-items:flex-start}
+.rd .ic{flex:0 0 40px;height:40px;border-radius:8px;background:var(--soft);display:flex;align-items:center;justify-content:center;color:var(--accent)}
+.rd b{display:block;font-size:16px;margin-bottom:4px}
+.rd p{font-size:15px;color:var(--muted)}
+.about{display:grid;grid-template-columns:1.1fr .9fr;gap:34px;align-items:start}
+@media(max-width:47.5rem){.about{grid-template-columns:1fr}}
+.about p{font-size:17px;margin-bottom:14px}
+.facts{border-left:3px solid var(--accent);padding-left:18px;display:flex;flex-direction:column;gap:12px}
+.facts .f{display:flex;gap:12px;align-items:flex-start}
+.facts .f svg{flex:0 0 24px;color:var(--accent)}
+.facts b{display:block;font-size:15px}
+.facts span{font-size:15px;color:var(--muted)}
+.rate{display:flex;gap:26px;align-items:center;flex-wrap:wrap;margin-bottom:24px}
+.big-rate{font-family:Georgia,serif;font-size:56px;line-height:1}
+.rating{color:var(--accent2);font-size:20px;letter-spacing:2px}
+.rev-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.rev{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px}
+.rev .rating{font-size:14px}
+.rev p{font-size:15px;color:var(--body);margin-top:8px}
+.rev cite{display:block;font-style:normal;font-size:13px;color:var(--muted);margin-top:10px}
+.loc{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:start}
+@media(max-width:47.5rem){.loc{grid-template-columns:1fr}}
+.map-blank{border:2px dashed var(--accent);border-radius:12px;min-height:240px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;color:var(--muted);text-align:center;padding:20px;background:var(--card)}
+.map-blank svg{color:var(--accent)}
+.addr{display:flex;gap:14px;margin-bottom:18px}
+.addr svg{flex:0 0 24px;color:var(--accent)}
+.addr p{font-size:17px}
+.schedule{display:grid;grid-template-columns:auto 1fr;gap:6px 18px;font-size:16px;max-width:21.25rem}
+.schedule .d{font-weight:600}
+.contact{display:flex;gap:18px;flex-wrap:wrap;align-items:center;justify-content:space-between}
+.contact .big{font-family:Georgia,serif;font-size:clamp(22px,3.5vw,30px);max-width:32.5rem}
+footer{background:var(--ink);color:var(--soft);padding:40px 0 90px}
+footer .cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:26px}
+footer h3{color:#fff;font-size:15px;margin-bottom:10px}
+footer p,footer a{font-size:15px;color:var(--soft);text-decoration:none}
+footer a:hover{color:#fff}
+footer .copy{margin-top:30px;padding-top:18px;border-top:1px solid var(--muted);font-size:13px;color:var(--muted)}
+.fab{position:fixed;right:18px;bottom:18px;z-index:60;width:56px;height:56px;border-radius:50%;background:var(--wa);color:#fff;display:flex;align-items:center;justify-content:center;box-shadow:0 6px 20px rgba(0,0,0,.25)}
+.fab:hover{transform:translateY(-2px)}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation:none!important;transition:none!important}
+}
+</style>
+</head>
+<body>
+<header id="top">
+  <div class="navwrap">
+    <div class="wrap nav">
+      <a class="brand" href="#top" aria-label="SG Imaging home">
+        <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M12 3v18M3 12h18"/><circle cx="12" cy="12" r="9"/></svg>
+        <span><b>SG Imaging</b><small>Diagnostic Centre</small></span>
+      </a>
+      <nav class="links" aria-label="Primary">
+        <a href="#studies">Studies</a>
+        <a href="#about">About</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </div>
+  <section class="hero">
+    <div class="cross" aria-hidden="true"></div>
+    <div class="wrap">
+      <span class="kicker mono">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v18M3 12h18"/></svg>
+        Diagnostic Imaging · Raj Nagar Extension
+      </span>
+      <h1>Imaging, read with <span class="accent">care</span> — reported by radiologists.</h1>
+      <p class="lede">SG imaging Diagnostic Centre is a diagnostic imaging centre in Aura Plaza Market, Ghaziabad. Walk in for your study; leave with a report that is ready to show your doctor.</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="#contact">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          Book a scan
+        </a>
+        <a class="btn btn-ghost" href="#studies">View imaging studies</a>
+      </div>
+      <div class="meta-strip mono">
+        <div class="m"><b>4.6 ★</b>Google rating</div>
+        <div class="m"><b>704</b>reviews</div>
+        <div class="m"><b>Mon–Sat</b>8 AM – 7 PM</div>
+        <div class="m"><b>Sun</b>8 AM – 12:30 PM</div>
+      </div>
+    </div>
+  </section>
+</header>
+
+<main>
+  <section id="studies">
+    <div class="wrap">
+      <div class="sec-head"><span class="no">01 /</span><h2>Imaging Studies</h2></div>
+      <p style="font-size:17px;color:var(--body);max-width:40rem;margin-bottom:26px">Every study follows a clear pathway — referral, acquisition, radiologist review, then a report you can carry to your doctor. Modality details below are to be confirmed from the centre's equipment list.</p>
+      <div class="studies">
+        <div class="study">
+          <div class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 18l5-5 4 4 3-3 6 6"/></svg></div>
+          <span class="tag">Study 01</span>
+          <h3>X-Ray</h3>
+          <p>Radiograph acquisition and reporting.</p>
+          <div class="ph">[Add X-ray study details]</div>
+        </div>
+        <div class="study">
+          <div class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 4v16M4 12h16"/></svg></div>
+          <span class="tag">Study 02</span>
+          <h3>Ultrasound</h3>
+          <p>Sonography studies for abdomen, pelvis and more.</p>
+          <div class="ph">[Add ultrasound study details]</div>
+        </div>
+        <div class="study">
+          <div class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M4 12h16M12 4v16"/></svg></div>
+          <span class="tag">Study 03</span>
+          <h3>CT</h3>
+          <p>Cross-sectional imaging studies.</p>
+          <div class="ph">[Add CT study details]</div>
+        </div>
+        <div class="study">
+          <div class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 3a9 9 0 0 1 9 9 9 9 0 0 1-9 9 9 9 0 0 1-9-9 9 9 0 0 1 9-9z"/><path d="M12 8v8M8 12h8"/></svg></div>
+          <span class="tag">Study 04</span>
+          <h3>MRI</h3>
+          <p>Magnetic resonance imaging studies.</p>
+          <div class="ph">[Add MRI study details]</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="readiness">
+    <div class="wrap">
+      <div class="sec-head"><span class="no">02 /</span><h2>Report Readiness</h2></div>
+      <div class="readiness">
+        <div class="rd">
+          <div class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg></div>
+          <div><b>Radiologist-reviewed</b><p>Studies are read and reported with a radiologist's eye. ___ Add reporting details ___</p></div>
+        </div>
+        <div class="rd">
+          <div class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg></div>
+          <div><b>Report-ready</b><p>Your report is prepared to hand over to your treating doctor. [Add report turnaround details]</p></div>
+        </div>
+        <div class="rd">
+          <div class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 4h16v16H4z"/><path d="M4 9h16M9 9v11"/></svg></div>
+          <div><b>Digital copy</b><p>___ Add how reports are delivered (print / digital) ___</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="wrap">
+      <div class="sec-head"><span class="no">03 /</span><h2>About the Centre</h2></div>
+      <div class="about">
+        <div>
+          <p>SG imaging Diagnostic Centre is located in Aura Plaza Market, opposite Gulmohar Garden, in Raj Nagar Extension, Ghaziabad — a diagnostic imaging centre serving the neighbourhood with radiology and imaging studies.</p>
+          <p>___ Add the centre's real story, founding, and team here ___</p>
+          <p>[Add doctor's qualifications and radiologist credentials]</p>
+        </div>
+        <div class="facts">
+          <div class="f"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M21 10c0 7-9 12-9 12S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><div><b>Location</b><span>18, UST, UGF, Metropolitan, Aura Plaza Market, opposite Gulmohar Garden, Raj Nagar Extension, Ghaziabad 201003</span></div></div>
+          <div class="f"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.9.5 2.8.7a2 2 0 0 1 1.7 2z"/></svg><div><b>Phone</b><span>+91 72900 01548</span></div></div>
+          <div class="f"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg><div><b>Timings</b><span>Mon–Sat 8 AM – 7 PM · Sun 8 AM – 12:30 PM</span></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="reviews">
+    <div class="wrap">
+      <div class="sec-head"><span class="no">04 /</span><h2>Patient Reviews</h2></div>
+      <div class="rate">
+        <div class="big-rate">4.6</div>
+        <div>
+          <div class="rating" aria-label="4.6 out of 5">★★★★★</div>
+          <div class="mono" style="margin-top:4px">Based on 704 Google reviews</div>
+        </div>
+      </div>
+      <p style="font-size:16px;color:var(--muted);margin-bottom:20px">[Add real Google review excerpts here — the centre's own verified reviews]</p>
+      <div class="rev-grid">
+        <div class="rev"><div class="rating">★★★★★</div><p>___ Add a verified patient review ___</p><cite>— Google review</cite></div>
+        <div class="rev"><div class="rating">★★★★★</div><p>___ Add a verified patient review ___</p><cite>— Google review</cite></div>
+        <div class="rev"><div class="rating">★★★★★</div><p>___ Add a verified patient review ___</p><cite>— Google review</cite></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="location">
+    <div class="wrap">
+      <div class="sec-head"><span class="no">05 /</span><h2>Find Us</h2></div>
+      <div class="loc">
+        <div>
+          <div class="addr"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M21 10c0 7-9 12-9 12S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><p>18, UST, UGF, Metropolitan, Aura Plaza Market, opposite Gulmohar Garden, Raj Nagar Extension, Ghaziabad, Uttar Pradesh 201003</p></div>
+          <div class="schedule">
+            <span class="d">Mon – Sat</span><span>8 AM – 7 PM</span>
+            <span class="d">Sunday</span><span>8 AM – 12:30 PM</span>
+          </div>
+        </div>
+        <div class="map-blank">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M21 10c0 7-9 12-9 12S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <b style="color:var(--ink)">[Add a Google Maps embed]</b>
+          <span class="mono">Interactive map placeholder</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap contact">
+      <div class="big">Have a referral or a study in mind? Talk to the SG Imaging team.</div>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="tel:+917290001548">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.9.5 2.8.7a2 2 0 0 1 1.7 2z"/></svg>
+          +91 72900 01548
+        </a>
+        <a class="btn btn-ghost" href="https://wa.me/917290001548" target="_blank" rel="noopener">WhatsApp the team</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <h3>SG Imaging Diagnostic Centre</h3>
+        <p>18, UST, UGF, Metropolitan, Aura Plaza Market, opposite Gulmohar Garden, Raj Nagar Extension, Ghaziabad, Uttar Pradesh 201003</p>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <p><a href="tel:+917290001548">+91 72900 01548</a></p>
+        <p><a href="https://wa.me/917290001548" target="_blank" rel="noopener">WhatsApp</a></p>
+      </div>
+      <div>
+        <h3>Timings</h3>
+        <p>Mon–Sat: 8 AM – 7 PM</p>
+        <p>Sunday: 8 AM – 12:30 PM</p>
+      </div>
+    </div>
+    <div class="copy">Demo website by SharpSites · Diagnostic imaging centre · Raj Nagar Extension, Ghaziabad</div>
+  </div>
+</footer>
+
+<a class="fab" href="https://wa.me/917290001548" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.2-.6.8-.8 1-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-2-1.2 7.5 7.5 0 0 1-1.4-1.7c-.1-.2 0-.4.1-.5l.4-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.8-1.9c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.2s.9 2.5 1 2.7c.1.2 1.8 2.7 4.3 3.8.6.3 1.1.4 1.5.6.6.2 1.2.2 1.6.1.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2z"/></svg>
+</a>
+
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function(){
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(reduce || typeof gsap === 'undefined') return;
+  gsap.registerPlugin(ScrollTrigger);
+  gsap.from('.hero h1', {y:26, opacity:0, duration:.9, ease:'power3.out'});
+  gsap.from('.hero .lede', {y:20, opacity:0, duration:.8, delay:.15, ease:'power3.out'});
+  gsap.from('.hero .cta-row .btn', {y:16, opacity:0, duration:.6, stagger:.12, delay:.3, ease:'power2.out'});
+  gsap.from('.hero .meta-strip .m', {y:14, opacity:0, duration:.6, stagger:.08, delay:.5, ease:'power2.out'});
+  gsap.utils.toArray('.sec-head').forEach(function(h){
+    gsap.from(h, {x:-24, opacity:0, duration:.7, scrollTrigger:{trigger:h, start:'top 85%'}});
+  });
+  gsap.utils.toArray('.study').forEach(function(c,i){
+    gsap.from(c, {y:30, opacity:0, duration:.6, delay:(i%4)*.08, scrollTrigger:{trigger:c, start:'top 88%'}});
+  });
+  gsap.utils.toArray('.rd').forEach(function(c,i){
+    gsap.from(c, {y:24, opacity:0, duration:.6, delay:(i%3)*.1, scrollTrigger:{trigger:c, start:'top 88%'}});
+  });
+  gsap.utils.toArray('.facts .f').forEach(function(c,i){
+    gsap.from(c, {x:24, opacity:0, duration:.6, delay:i*.1, scrollTrigger:{trigger:c, start:'top 88%'}});
+  });
+});
+</script>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"MedicalClinic",
+  "name":"SG imaging Diagnostic Centre",
+  "image":"",
+  "telephone":"+917290001548",
+  "address":{"@type":"PostalAddress","streetAddress":"18, UST, UGF, Metropolitan, Aura Plaza Market, opposite Gulmohar Garden","addressLocality":"Ghaziabad","addressRegion":"Uttar Pradesh","postalCode":"201003","addressCountry":"IN"},
+  "geo":{"@type":"GeoCoordinates","latitude":28.7050175,"longitude":77.4322601},
+  "openingHoursSpecification":[
+    {"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"08:00","closes":"19:00"},
+    {"@type":"OpeningHoursSpecification","dayOfWeek":"Sunday","opens":"08:00","closes":"12:30"}
+  ],
+  "aggregateRating":{"@type":"AggregateRating","ratingValue":"4.6","reviewCount":"704"}
+}
+</script>
+</body>
+</html>
